@@ -1,0 +1,43 @@
+"""
+날짜 : 2022/01/03
+이름 :김재현
+내용 : 파이썬 조건문 if 실습하기 교재 p60
+"""
+
+# if문
+num1, num2 = 1, 2
+
+if num1 > 0:
+    print('num1은 0보다 크다.')
+
+if num1 > num2:
+    print('num1은 num2보다 크다')
+
+if num1 > 0:
+    if num2 > 1:
+        print('num1 은 0보다 크고, num2는 1보다 크다,')
+
+if num1 > 0 and num2 > 1:
+    print('num1은 0보다 크고 그리고 num2는 1보다 크다.')
+
+# if ~ else
+num3, num4 = 3, 4
+
+if num3 > num2:
+    print('num1 은 num2보다 크다.')
+elif num2 > num3:
+    print('num2은 num3보다 작다.')
+elif num3 > num4:
+    print('num3은 num보다 크다.')
+else:
+    print('num4가 가장 크다.')
+
+# if ~ elsf ~ else
+if num1 > num2:
+    print('num1 은 num2보다 크다.')
+elif num2 > num3:
+    print('num2은 num3보다 작다.')
+elif num3 > num4:
+    print('num3은 num보다 크다.')
+else:
+    print('num4가 가장 크다.')
