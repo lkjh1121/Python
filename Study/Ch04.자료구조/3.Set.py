@@ -15,8 +15,8 @@ print('set2 type : ', type(set2))
 print('set2 : ', set2)
 
 # 리스트 변환해서 출력
-List1 = List(set1)
+List1 = list(set1)
 print('List1 :', List1)
 
-List2 = List(set2)
+List2 = list(set2)
 print('List2 :', List2)
