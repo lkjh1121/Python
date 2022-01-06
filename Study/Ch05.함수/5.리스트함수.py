@@ -6,7 +6,6 @@
 import math
 
 dataset = [1, 4, 3]
-
 print(dataset)
 
 # 데이터 추가

@@ -30,23 +30,22 @@ animal = ['Tiger', 'Eagle', 'Shark']
 result = None
 
 while True:
-
     try:
         print('Animal을 선택하세요.')
         print('1:호랑이, 2:독수리, 3:상어, 0:종료')
 
         answer = int(input('선택 :'))
 
-      if answer == 0:
-        break
+        if answer == 0:
+            break
 
-    result = animal[answer-1]
+        result = animal[answer-1]
 
-except Exception as e:
-    print('에러내용 :', e)
+    except Exception as e:
+        print('에러내용 :', e)
 
-finally:
+    finally:
     # 에러발생 여부와 상관없이 마지막에 무조건 실행코드 블럭
-    if result != None:
-        print('선택한 동물은 %s입니다.' %result)
+        if result != None:
+            print('선택한 동물은 %s입니다.' % result)
 print('finish...')

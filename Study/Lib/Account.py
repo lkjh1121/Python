@@ -1,8 +1,8 @@
 
 class Account:
 
-
-    def __init__(self,bank, id, name , balasnce):
+    # 속성 : 생성자에서 선언
+    def __init__(self, bank, id, name, balasnce):
         self.bank = bank
         self.id = id
         self.name = name
@@ -20,4 +20,4 @@ class Account:
             print('계좌번호 :', self.id)
             print('입금주 :', self.name)
             print('현재잔액 :', self.balance)
-            print('-', * 20)
+            print('-' * 20)

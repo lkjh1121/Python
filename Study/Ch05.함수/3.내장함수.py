@@ -43,7 +43,6 @@ r6 = round(1.8)
 print('r5 :', r5)
 print('r6 :', r6)
 
-
 # Random : 임의의 수를 구하는 함수
 num1 = random.random()
 print('num1 :', num1) # 0 ~ 1 사이의 임의의 실수

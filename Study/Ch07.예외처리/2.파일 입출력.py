@@ -19,7 +19,7 @@ while True:
 f1.close()
 
 # 파일쓰기
-f2 = open('./Result.txt', mode='w', enumerate='utf-8')
+f2 = open('./Result.txt', mode='w', encoding='utf-8')
 f2.write('안녕하세요.\n')
 f2.write('반갑습니다.\n')
 f2.write('감사합니다.\n')
@@ -29,9 +29,9 @@ f2.close()
 f3 = open('./Gugudan.txt', mode='w', encoding='utf-8')
 
 for x in range(2, 10):
-    f3.write('%d단' % x)
+    f3.write('%d단\n' % x)
     for y in range(1, 10):
         z = x * y
-        f3.write('{} x {} = {}'.format(x, y, z))
+        f3.write('{} x {} = {}\n'.format(x, y, z))
 
-        f3.close()
+f3.close()

@@ -14,7 +14,6 @@ y1 = f(1)
 y2 = f(2)
 y3 = f(3)
 
-
 print('y1 :', y1)
 print('y2 :', y2)
 print('y3 :', y3)

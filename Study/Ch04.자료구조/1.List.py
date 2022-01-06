@@ -59,5 +59,5 @@ array = [1, 2, 3, 4, 5]
 result1 = [num * 3 for num in array]
 result2 = [num * 3 for num in array if num % 2 == 1]
 
-print('result :', result1)
-print('result :', result2)
+print('result1 :', result1)
+print('result2 :', result2)
