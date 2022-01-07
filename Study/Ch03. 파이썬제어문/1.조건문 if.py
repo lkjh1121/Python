@@ -23,21 +23,19 @@ if num1 > 0 and num2 > 1:
 # if ~ else
 num3, num4 = 3, 4
 
-if num3 > num2:
-    print('num1 은 num2보다 크다.')
-elif num2 > num3:
-    print('num2은 num3보다 작다.')
-elif num3 > num4:
-    print('num3은 num보다 크다.')
+if num3 > num4:
+    print('num3은 num4보다 크다.')
+    pass # 코드블럭을 비워둘때 사용하는 키워드
 else:
-    print('num4가 가장 크다.')
+    print('num3은 num4보다 작다.')
+    pass
 
-# if ~ elsf ~ else
+# if ~ elif ~ else
 if num1 > num2:
     print('num1 은 num2보다 크다.')
 elif num2 > num3:
     print('num2은 num3보다 작다.')
 elif num3 > num4:
-    print('num3은 num보다 크다.')
+    print('num3은 num4보다 크다.')
 else:
     print('num4가 가장 크다.')

@@ -8,7 +8,6 @@
 i = 1
 
 while i <= 5:
-
     print('반복 i :', i)
     i += 1
 
@@ -29,6 +28,8 @@ while j <= 10:
     if j%2 == 1:
         sum += j
 
+    j += 1
+
 print('1부터 10까지 홀수합 :', sum)
 
 # break
@@ -38,6 +39,7 @@ while True:
 
     if num % 5 == 0 and num % 7 == 0:
         break # 반복문 종료
+
     num += 1
 
 print('5와 7의 최소공배수 :', num)

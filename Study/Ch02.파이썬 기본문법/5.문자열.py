@@ -41,7 +41,7 @@ print('p2 :', p2)
 print('p3 :', p3)
 print('p4 :', p4)
 print('p5 :', p5)
-q
+
 # 문자열 이스케이프
 print('서울\n대전\n대구\n부산\n광주')
 print('서울\t대전\t대구\t부산\t광주')

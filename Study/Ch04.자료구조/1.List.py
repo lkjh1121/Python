@@ -5,18 +5,18 @@
 """
 
 # 리스트
-List1 = [1, 2, 3, 4, 5]
+list1 = [1, 2, 3, 4, 5]
 
-print('List1 type :', type(List1))
-print('List1[0] :', List1[0])
-print('List1[2] :', List1[2])
-print('List1[3] :', List1[3])
+print('List1 type :', type(list1))
+print('List1[0] :', list1[0])
+print('List1[2] :', list1[2])
+print('List1[3] :', list1[3])
 
 List2 = [5, 3.14, True, 'Apple']
 print('List2 type :', type(List2))
-print('List1[1] :', List1[1])
-print('List1[2] :', List1[2])
-print('List1[3] :', List1[3])
+print('List1[1] :', list1[1])
+print('List1[2] :', list1[2])
+print('List1[3] :', list1[3])
 
 List3 = [[1, 2, 3],
          [4, 5, 6],

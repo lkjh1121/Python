@@ -29,6 +29,7 @@ sum = 0
 for k in range(11):
     if k%2 == 0:
         sum += k
+
 print('1부터 10까지 짝수합 :', sum)
 
 # 중첩 for
