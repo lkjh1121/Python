@@ -12,7 +12,7 @@ for j in range(10, 20):
     print('반복 j :', j)
 
 for k in range(10, 0, -1):
-    print('박복 k :', k)
+    print('반복 k :', k)
 
 
 # 1부터 10까지 합
