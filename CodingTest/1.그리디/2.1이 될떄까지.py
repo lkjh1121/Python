@@ -5,15 +5,15 @@
 """
 n, k = map(int, input().split())
 
-result= 0
+result = 0
 
 while True:
 
-    if n==1:
+    if n == 1:
         break
 
     if n % k != 0:
-        # 1 빼기
+        # 1빼기
         n -= 1
     else:
         # k로 나누기
